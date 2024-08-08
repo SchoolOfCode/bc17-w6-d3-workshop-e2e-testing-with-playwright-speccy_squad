@@ -82,7 +82,7 @@ Within the existing test that you've started, use the [Playwright documentation]
 
 You should then rerun the tests to check whether navigation was successful and the test still passes. If you're using Playwright's UI mode to run the tests (as mentioned in the previous ticket), you can check if you can see the frontend for the todos web application in the Playwright UI.
 
-### 🎫 Ticket 5 - Locating the input element
+### 🎫 Ticket 5 - Locating the input element ✅
 
 Finding elements on the page is a fundamental part of writing end-to-end tests. This is because in order to perform actions (e.g. clicking a button or typing something into an input) or assertions (e.g. checking if an input contains some expected value), you need to find the element first.
 

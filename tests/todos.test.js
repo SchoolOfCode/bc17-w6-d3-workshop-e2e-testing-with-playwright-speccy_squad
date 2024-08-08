@@ -1,8 +1,10 @@
 import { test, expect } from "@playwright/test";
 
-// test('has title', async ({ page }) => {
-//     await page.goto('https://playwright.dev/');
+// test("Make sure can navigate to URL", async ({ page }) => {
+//   await page.goto("http://localhost:3000/");
+// });
 
-test("Make sure can navigate to URL", async ({ page }) => {
+test("Making sure we can select text box", async ({ page }) => {
   await page.goto("http://localhost:3000/");
+  await page.getByRole('textbox', { name: 'New Todo:' }).fill('Hello');
 });
