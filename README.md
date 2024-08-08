@@ -16,7 +16,7 @@ This workshop is all about end-to-end testing! Here's a glimpse of what you'll b
 
 In this workshop, you'll be writing end-to-end tests for a full-stack application. Time to dive into action! 🏊‍♂️ Here's what you'll be working on:
 
-### 🎫 Ticket 1 - Setup and familiarity
+### 🎫 Ticket 1 - Setup and familiarity✅
 
 Get familiar with the codebase and running the application.
 
@@ -35,7 +35,7 @@ Get familiar with the codebase and running the application.
 7. Open the URL printed in the terminal in your browser. You should see the todo app frontend. Play with it from a user's perspective.
 8. Now that you're familiar with the code and running the app, you're ready to begin the testing tasks!
 
-### 🎫 Ticket 2 - Installing Playwright
+### 🎫 Ticket 2 - Installing Playwright✅
 
 First, use the [installation instructions](https://playwright.dev/docs/intro) to install Playwright within the project.
 
@@ -49,7 +49,7 @@ First, use the [installation instructions](https://playwright.dev/docs/intro) to
 
 Then read through the [Writing Tests](https://playwright.dev/docs/writing-tests) page to get an overview of how tests are written in Playwright.
 
-### 🎫 Ticket 3 - Writing a basic test skeleton
+### 🎫 Ticket 3 - Writing a basic test skeleton✅
 
 At this stage you should have a `playwright.config.js` and an empty `tests` folder. Your next task is to write the minimum amount of code needed to create and run a Playwright test.
 
