@@ -6,5 +6,7 @@ import { test, expect } from "@playwright/test";
 
 test("Making sure we can select text box", async ({ page }) => {
   await page.goto("http://localhost:3000/");
-  await page.getByRole('textbox', { name: 'New Todo:' }).fill('Hello');
+  await page.getByRole('textbox', { name: 'New Todo:' }).fill("Wash the car");
+  //await expect(page).toHaveTitle(/Playwright/);
+  await expect(page)
 });
