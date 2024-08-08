@@ -68,7 +68,7 @@ At this stage you should have a `playwright.config.js` and an empty `tests` fold
 
 🎯 Knowing how to read and write this sort of test skeleton is going to be a fundamental part of this exercise. Typically you'll have test files containing multiple tests, with each test building on top of this skeleton/structure.
 
-### 🎫 Ticket 4 - Navigating to the frontend
+### 🎫 Ticket 4 - Navigating to the frontend ✅
 
 When writing end-to-end tests, being able to navigate to a particular URL is an important step. In order to test the application, you've got to navigate to it first.
 
